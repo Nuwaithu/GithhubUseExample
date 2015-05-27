@@ -14,6 +14,7 @@
 		A311B1A41B157DAB002A605A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A311B1A31B157DAB002A605A /* Images.xcassets */; };
 		A311B1A71B157DAB002A605A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A311B1A51B157DAB002A605A /* LaunchScreen.xib */; };
 		A311B1B31B157DAB002A605A /* GithhubUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A311B1B21B157DAB002A605A /* GithhubUseExampleTests.m */; };
+		A311B1BF1B158577002A605A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A311B1BE1B158577002A605A /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A311B1AC1B157DAB002A605A /* GithhubUseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithhubUseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A311B1B11B157DAB002A605A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A311B1B21B157DAB002A605A /* GithhubUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithhubUseExampleTests.m; sourceTree = "<group>"; };
+		A311B1BD1B158577002A605A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A311B1BE1B158577002A605A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		A311B18A1B157DAB002A605A = {
 			isa = PBXGroup;
 			children = (
+				A311B1BC1B15855B002A605A /* FolderUpdate */,
 				A311B1951B157DAB002A605A /* GithhubUseExample */,
 				A311B1AF1B157DAB002A605A /* GithhubUseExampleTests */,
 				A311B1941B157DAB002A605A /* Products */,
@@ -117,6 +121,15 @@
 				A311B1B11B157DAB002A605A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A311B1BC1B15855B002A605A /* FolderUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				A311B1BD1B158577002A605A /* TestViewController.h */,
+				A311B1BE1B158577002A605A /* TestViewController.m */,
+			);
+			name = FolderUpdate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				A311B19F1B157DAB002A605A /* ViewController.m in Sources */,
 				A311B19C1B157DAB002A605A /* AppDelegate.m in Sources */,
+				A311B1BF1B158577002A605A /* TestViewController.m in Sources */,
 				A311B1991B157DAB002A605A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
